@@ -8,7 +8,7 @@ class etcd::params {
   $service_enable = true
   # member options
   $etcd_name = 'default'
-  $etcd_data_dir = '/var/lib/etcd/default.etcd'
+  $etcd_data_dir = '/var/lib/etcd'
   $etcd_snapshot_counter = 10000
   $etcd_heartbeat_interval = 100
   $etcd_election_timeout = 1000
